@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Swarnamali Associates – Professional consulting and financial services. Trusted expertise to grow your business." />
+  <title>Swarnamali Associates | Professional Services</title>
+
+  <!-- Favicon (inline SVG data-URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%231a3c5e'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='18' font-weight='bold' fill='%23c8922a' font-family='Arial'>S</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* Override body font with Inter if loaded */
+    body { font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-icon">SA</div>
+        <span>Swarnamali Associates</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       HERO
+  ══════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>&#9733;</span> Trusted Since 2005
+          </div>
+
+          <h1>
+            Expert Solutions for<br />
+            <span>Your Business</span> Growth
+          </h1>
+
+          <p>
+            Swarnamali Associates delivers professional consulting, financial advisory,
+            and business development services — helping organisations unlock their
+            full potential.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Our Services</a>
+            <a href="#contact"  class="btn btn-outline">Get in Touch</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="num" data-target="500" data-suffix="+">0+</div>
+              <div class="label">Clients Served</div>
+            </div>
+            <div class="stat-item">
+              <div class="num" data-target="20" data-suffix="+">0+</div>
+              <div class="label">Years of Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="num" data-target="98" data-suffix="%">0%</div>
+              <div class="label">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right visual card -->
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <div class="hero-card-avatar">SA</div>
+              <div>
+                <h3>Our Core Services</h3>
+                <p>What we do best</p>
+              </div>
+            </div>
+
+            <div class="service-item-card">
+              <div class="sic-icon" style="background:rgba(200,146,42,.2)">💼</div>
+              <div class="sic-text">
+                <h4>Business Consulting</h4>
+                <p>Strategy &amp; Operations</p>
+              </div>
+            </div>
+
+            <div class="service-item-card">
+              <div class="sic-icon" style="background:rgba(45,106,159,.2)">📊</div>
+              <div class="sic-text">
+                <h4>Financial Advisory</h4>
+                <p>Investment &amp; Planning</p>
+              </div>
+            </div>
+
+            <div class="service-item-card">
+              <div class="sic-icon" style="background:rgba(40,167,69,.2)">⚖️</div>
+              <div class="sic-text">
+                <h4>Legal &amp; Compliance</h4>
+                <p>Risk Management</p>
+              </div>
+            </div>
+
+            <div class="service-item-card">
+              <div class="sic-icon" style="background:rgba(220,53,69,.2)">🚀</div>
+              <div class="sic-text">
+                <h4>Business Development</h4>
+                <p>Growth &amp; Expansion</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       ABOUT
+  ══════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Who We Are</span>
+        <h2>A Legacy of Trust &amp; Excellence</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Visual -->
+        <div class="about-visual">
+          <div class="about-img-wrapper">
+            <div class="about-building-icon">🏢</div>
+            <h3>Swarnamali Associates</h3>
+            <p>Colombo, Sri Lanka &amp; Beyond</p>
+          </div>
+          <div class="about-badge">Est. 2005 &nbsp;•&nbsp; 20+ Years</div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-content">
+          <p>
+            Founded in 2005, Swarnamali Associates has grown into a full-service
+            professional firm renowned for delivering innovative, client-centred
+            solutions across multiple industries.
+          </p>
+          <p>
+            Our multi-disciplinary team of seasoned professionals brings deep
+            sector knowledge and a commitment to excellence, ensuring every client
+            receives tailored guidance that drives measurable results.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point">
+              <div class="point-icon">✓</div>
+              <div>
+                <h4>Client-First Philosophy</h4>
+                <p>Every strategy we craft is built around your unique goals and challenges.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="point-icon">✓</div>
+              <div>
+                <h4>Proven Track Record</h4>
+                <p>Over 500 satisfied clients across diverse sectors since inception.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="point-icon">✓</div>
+              <div>
+                <h4>Ethical &amp; Transparent</h4>
+                <p>We operate with the highest standards of integrity and transparency.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       SERVICES
+  ══════════════════════════════════ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">What We Offer</span>
+        <h2>Our Professional Services</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#fff3cd;">💼</div>
+          <h3>Business Consulting</h3>
+          <p>Comprehensive strategic advisory covering operations, process optimisation, and organisational transformation to keep your business ahead.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#d1ecf1;">📊</div>
+          <h3>Financial Advisory</h3>
+          <p>Expert financial planning, investment guidance, budgeting, and cash-flow management tailored to your short and long-term objectives.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#d4edda;">⚖️</div>
+          <h3>Legal &amp; Compliance</h3>
+          <p>Proactive risk assessment, regulatory compliance, contract drafting, and dispute resolution to protect your business interests.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#f8d7da;">🚀</div>
+          <h3>Business Development</h3>
+          <p>Market entry strategies, partnership development, and growth initiatives designed to accelerate revenue and expand your reach.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#e2d9f3;">💻</div>
+          <h3>Technology Solutions</h3>
+          <p>Digital transformation advisory, IT strategy, and technology implementation support to modernise your business operations.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon" style="background:#fce8d5;">🎓</div>
+          <h3>Training &amp; Development</h3>
+          <p>Bespoke corporate training programmes, leadership coaching, and workshops to build high-performing teams and organisations.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       WHY CHOOSE US
+  ══════════════════════════════════ -->
+  <section id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Why Choose Us</span>
+        <h2>The Swarnamali Difference</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-icon">🏆</div>
+          <h3>Award-Winning Firm</h3>
+          <p>Recognised nationally for excellence in professional services and client outcomes.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🌐</div>
+          <h3>Global Network</h3>
+          <p>Connected to a broad network of international partners for cross-border support.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🔒</div>
+          <h3>Confidentiality First</h3>
+          <p>Your data and business information are protected with the strictest protocols.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>Agile &amp; Responsive</h3>
+          <p>Fast turnaround times and dedicated support whenever you need us most.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🤝</div>
+          <h3>Long-Term Partnership</h3>
+          <p>We build lasting relationships, not one-off engagements—your success is our success.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">📈</div>
+          <h3>Results-Driven</h3>
+          <p>Every recommendation we make is anchored to measurable outcomes and ROI.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       TEAM
+  ══════════════════════════════════ -->
+  <section id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Meet the Team</span>
+        <h2>The Experts Behind Your Success</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#1a3c5e,#2d6a9f)">👨‍💼</div>
+          <div class="team-info">
+            <h3>Swarnamali Perera</h3>
+            <div class="role">Founder &amp; CEO</div>
+            <p>20+ years in business strategy and financial management. Passionate about empowering Sri Lankan enterprises.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#c8922a,#e8b84b)">👩‍💼</div>
+          <div class="team-info">
+            <h3>Chamari Silva</h3>
+            <div class="role">Head of Finance</div>
+            <p>Chartered accountant with deep expertise in investment advisory and corporate financial structuring.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#28a745,#5cb85c)">👨‍⚖️</div>
+          <div class="team-info">
+            <h3>Nuwan Fernando</h3>
+            <div class="role">Legal Counsel</div>
+            <p>Attorney-at-Law specialising in commercial law, mergers &amp; acquisitions, and regulatory compliance.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#6f42c1,#9b59b6)">👩‍💻</div>
+          <div class="team-info">
+            <h3>Dilini Jayawardena</h3>
+            <div class="role">Technology Director</div>
+            <p>IT strategist and digital transformation lead with expertise in enterprise systems and automation.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       CONTACT
+  ══════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Get in Touch</span>
+        <h2>Let's Start a Conversation</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info">
+          <h3>We'd Love to Hear From You</h3>
+          <p>Whether you have a question, need a consultation, or are ready to work together — our team is here to help.</p>
+
+          <div class="contact-item">
+            <div class="ci-icon">📍</div>
+            <div class="ci-text">
+              <strong>Head Office</strong>
+              <span>42 Galle Road, Colombo 03, Sri Lanka</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="ci-icon">📞</div>
+            <div class="ci-text">
+              <strong>Phone</strong>
+              <span>+94 11 234 5678</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="ci-icon">✉️</div>
+            <div class="ci-text">
+              <strong>Email</strong>
+              <span>info@swarnamaliassociates.lk</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="ci-icon">🕐</div>
+            <div class="ci-text">
+              <strong>Business Hours</strong>
+              <span>Mon – Fri: 8:30 AM – 5:30 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Doe" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+94 77 000 0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service">
+                <option value="">– Select a Service –</option>
+                <option>Business Consulting</option>
+                <option>Financial Advisory</option>
+                <option>Legal &amp; Compliance</option>
+                <option>Business Development</option>
+                <option>Technology Solutions</option>
+                <option>Training &amp; Development</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us how we can help…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            <p class="form-note">We will respond within 1 business day.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <div class="logo-icon">SA</div>
+            <span>Swarnamali Associates</span>
+          </a>
+          <p>Providing trusted professional services to businesses and individuals since 2005. Your growth is our mission.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-link" aria-label="Email">✉</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Business Consulting</a></li>
+            <li><a href="#services">Financial Advisory</a></li>
+            <li><a href="#services">Legal &amp; Compliance</a></li>
+            <li><a href="#services">Business Development</a></li>
+            <li><a href="#services">Technology Solutions</a></li>
+            <li><a href="#services">Training &amp; Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+94112345678">+94 11 234 5678</a></li>
+            <li><a href="mailto:info@swarnamaliassociates.lk">info@swarnamali<br />associates.lk</a></li>
+            <li><a href="#contact">42 Galle Road,<br />Colombo 03, Sri Lanka</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2025</span> Swarnamali Associates. All rights reserved.</p>
+        <p>Designed with ❤️ in Sri Lanka</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Toast notification -->
+  <div id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
